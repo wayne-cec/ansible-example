@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+   - name: copy file
+     file:
+       src: /etc/hosts
+       dest: /tmp/aaaaa
+       owner: root
+       group: root

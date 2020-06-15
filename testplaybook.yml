@@ -7,3 +7,4 @@
        dest: /tmp/aaaaa
        owner: root
        group: root
+       state: hard
